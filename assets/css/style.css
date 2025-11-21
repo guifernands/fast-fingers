@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #282a36;
+    --cor-texto: #f8f8f2;
+    --destaque: #bd93f9;
+    --correto: #50fa7b;
+    --incorreto: #ff5555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Code', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: var(--cor-texto);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    /* Faz o main ocupar todo o espaço que sobra na tela abaixo do header */
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--cor-texto);
+}
+
+.campo-de-digitacao {
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
