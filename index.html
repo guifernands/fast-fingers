@@ -10,8 +10,8 @@
 
     <header>
         <nav>
-            <a href="#">Normal Mode</a>
-            <a href="#">Dev Mode</a>
+            <a href="" class="normal-mode botao-ativo">Normal Mode</a>
+            <a href="" class="dev-mode">Dev Mode</a>
         </nav>
     </header>
 
@@ -19,9 +19,13 @@
         
         <section class="campo-de-digitacao">
             <h1>Fast Fingers!</h1>
-            <div>Tempo <span class="tempo">0</span>s</div>
+            <div class="infos">
+                <div>Tempo: <span class="tempo">0</span>s</div>
+                <div>Precisão: <span class="precisao">100</span>%</div>
+            </div>
             <p class="texto">TEXTO A SER DIGITADO</p>
-            <input type="text" class="inp-texto">
+            <input type="text" class="inp-texto" placeholder="treine sua acurácia na digitação aqui:">
+            <button class="reiniciar escondido"><span>🔄</span></button>
         </section>
 
     </main>
