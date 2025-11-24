@@ -1,21 +1,37 @@
 // constructor
 function FastFingers() {
     // textos do modo normal
-    const textos_normal = [
-        'Hoje de manhã encontrei um senhor de idade ao lado de uma antiga farmácia aqui do bairro onde moro', 
-        'Fomos ao supermercado as pressas para comprar o tempero que estava faltando para o churrasco',
-        'O entregador de cachorro quente estava atrasado. Por isso reclamamos da demora no aplicativo',
-        'Era uma segunda-feira de feriado então... Jogamos jogos de tabuleiro até altas horas no fim de semana!',
-        'Vendemos nosso carro de luxo para reformar os fundos de casa mas infelizmente ocorreu imprevistos',
-        'O helicóptero sobrevoou o litoral inteiro para fazer a gravação do documentário'
+   const textos_normal = [
+        'Hoje de manhã encontrei um senhor de idade ao lado de uma antiga farmácia aqui do bairro onde moro.', 
+        
+        'Fomos ao supermercado às pressas para comprar o tempero que estava faltando para o churrasco.',
+        
+        'O entregador de cachorro-quente estava atrasado. Por isso reclamamos da demora no aplicativo.',
+        
+        'Era uma tarde de sábado, então... Jogamos jogos de tabuleiro até altas horas!',
+        
+        'Vendemos nosso carro de luxo para reformar os fundos de casa, mas infelizmente ocorreram imprevistos.',
+        
+        'O helicóptero sobrevoou o litoral inteiro para fazer a gravação do documentário.',
+
+        'Aquele restaurante novo na esquina serve pratos deliciosos, mas o preço é um pouco salgado.',
+
+        'Durante a viagem de trem, aproveitei para ler aquele livro que estava na estante há meses.',
+
+        'Os cientistas descobriram uma nova espécie de planta rara nas profundezas da floresta amazônica.'
     ]
 
     // textos modo dev
     const textos_dev = [
         "function helloWorld() { console.log('Hello World'); }",
+
         "array.map(item => item * 2).filter(num => num > 10);",
-        "let developer = () => { console.log(`${nome}, sou dev!`); }",
-        "document.getElementById('app').innerHTML = 'JS Frameworks';"
+
+        "const developer = () => { console.log(`${nome[devId]}, sou dev!`); }",
+
+        "while(true) { console.log('infinito') };",
+
+        "for (let i = 0; i < lista.length; i++) { console.log(lista[i]); }"
     ]
 
     // variáveis

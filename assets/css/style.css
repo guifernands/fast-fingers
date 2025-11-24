@@ -178,6 +178,7 @@ nav a:hover {
         font-size: 16px;
         line-height: 1.5;
         margin-bottom: 20px;
+        white-space: normal;
     }
 
     .infos {
@@ -188,9 +189,10 @@ nav a:hover {
 
     .inp-texto {
         width: 100%;
-        font-size: 16px; 
+        font-size: 14px; 
         padding: 15px;
     }
+
 
     header nav {
         display: flex;
