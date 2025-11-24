@@ -29,7 +29,7 @@ function FastFingers() {
 
         "const developer = () => { console.log(`${nome[devId]}, sou dev!`); }",
 
-        "while(true) { console.log('infinito') };",
+        "while(true) { console.log('infinito') }",
 
         "for (let i = 0; i < lista.length; i++) { console.log(lista[i]); }"
     ]
